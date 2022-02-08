@@ -17,7 +17,8 @@ namespace Sort_the_odd
             {
                 if (array[i] % 2 != 0 )
                 {
-                    array[i] = odd[j++];
+                    array[i] = odd[j];
+                    j++;
                 }
             }
 
